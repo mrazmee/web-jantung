@@ -87,7 +87,7 @@ exang_bn = exang_map[exang]
 slope_bn = slope_map[slope]
 
 # Memuat model yang disimpan
-model_path = 'https://github.com/mrazmee/web-jantung/blob/ff95ffa5a0f322093b438382303245f175785984/model/model_sklearn.pkl'
+model_path = 'model/model_sklearn.pkl'
 model = joblib.load(model_path)
 
 # Fungsi untuk preprocessing data input
