@@ -5,13 +5,13 @@ import pandas as pd
 
 #judul web
 st.title("Website Pendeteksi Jantung")
-st.image("images/header-jantung.jpg")
+st.image("https://github.com/mrazmee/web-jantung/blob/main/images/header-Jantung.jpg?raw=true")
 st.subheader("Apakah Anda bertanya-tanya tentang kondisi jantung Anda? Aplikasi ini akan membantu Anda mendiagnosisnya!")
 
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("images/doctor.png",
+    st.image("https://github.com/mrazmee/web-jantung/blob/main/images/doctor.png?raw=true",
             caption="Saya akan membantu Anda mendiagnosis kesehatan jantung Anda! - Dr. Support Vector Machine",
             width=150)
 with col2:
