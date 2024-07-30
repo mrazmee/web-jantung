@@ -270,5 +270,5 @@ if submit:
             st.markdown(f"**Kemungkinan Anda menderita"
                         f" penyakit jantung adalah {round(predict_prob[0][1] * 100, 2)}%."
                         f" {status}.**")
-            st.image("https://github.com/mrazmee/web-jantung/blob/ff95ffa5a0f322093b438382303245f175785984/images/penyakit-jantung.png",
+            st.image("images/penyakit-jantung.png",
                      caption="Kesehatan jantung adalah investasi terbaik. Jantung Anda terdeteksi tidak sehat, segera temui dokter! - Dr. Support Vector Machine")
