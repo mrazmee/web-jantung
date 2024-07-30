@@ -260,7 +260,7 @@ if submit:
                 st.markdown(f"**Kemungkinan Anda menderita"
                         f" penyakit jantung adalah {round(predict_prob[0][1] * 100, 2)}%."
                         f" {status}!**")
-                st.image("https://github.com/mrazmee/web-jantung/blob/ff95ffa5a0f322093b438382303245f175785984/images/jantung-sehat.png",
+                st.image("images/jantung-sehat.png",
                      caption="Jantung Anda tampaknya baik-baik saja! - Dr. Support Vector Machine")
                 if catatan:
                     st.write("Catatan: ")
