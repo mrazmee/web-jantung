@@ -258,7 +258,7 @@ if submit:
 
         if prediction == 0:
                 st.markdown(f"**Kemungkinan Anda menderita"
-                        f" penyakit jantung adalah {round(predict_prob[0][1] * 100, 2)}%."
+                        f" penyakit gagal jantung adalah {round(predict_prob[0][1] * 100, 2)}%."
                         f" {status}!**")
                 st.image("images/jantung-sehat.png",
                      caption="Jantung Anda tampaknya baik-baik saja! - Dr. Support Vector Machine")
@@ -268,7 +268,7 @@ if submit:
                         st.write(f"{i+1}. {catatan[i]}")
         else:
             st.markdown(f"**Kemungkinan Anda menderita"
-                        f" penyakit jantung adalah {round(predict_prob[0][1] * 100, 2)}%."
+                        f" penyakit gagal jantung adalah {round(predict_prob[0][1] * 100, 2)}%."
                         f" {status}.**")
             st.image("images/penyakit-jantung.png",
                      caption="Kesehatan jantung adalah investasi terbaik. Jantung Anda terdeteksi tidak sehat, segera temui dokter! - Dr. Support Vector Machine")
