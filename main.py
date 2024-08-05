@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 #judul web
-st.title("Website Pendeteksi Jantung")
+st.title("Website Pendeteksi Gagal Jantung")
 st.image("https://github.com/mrazmee/web-jantung/blob/main/images/header-Jantung.jpg?raw=true")
 st.subheader("Apakah Anda bertanya-tanya tentang kondisi jantung Anda? Aplikasi ini akan membantu Anda mendiagnosisnya!")
 
