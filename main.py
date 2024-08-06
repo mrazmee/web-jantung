@@ -50,6 +50,11 @@ st.markdown('''
 11. **Kemiringan Segmen ST**: Kemiringan segmen ST latihan puncak [Up: menanjak, Flat: datar, Down: menurun]
 ''')
 
+st.write("---")
+st.header('Ayo, Cek Kondisi Kesehatan Jantung Anda!')
+st.subheader('Isi parameter di bawah ini untuk mengetahui kondisi jantung Anda.')
+st.write("")
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
