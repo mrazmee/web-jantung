@@ -45,7 +45,7 @@ st.markdown('''
 6. **Gula Darah Puasa**: ula darah puasa merujuk pada kadar glukosa (gula) dalam darah setelah seseorang tidak makan atau minum apapun kecuali air selama periode waktu tertentu, biasanya 8 hingga 12 jam. [1: jika Gula darah puasa > 120 mg/dl, 0: sebaliknya]
 7. **Elektrodiagram Saat Istirahat**: Hasil elektrokardiogram istirahat [Normal: Normal, ST: memiliki kelainan gelombang ST-T (inversi gelombang T dan/atau elevasi atau depresi ST > 0,05 mV), LVH: menunjukkan hipertrofi ventrikel kiri yang mungkin atau pasti menurut kriteria Estes]
 8. **Detak Jantung Maksimum**: Detak jantung maksimum yang dicapai [Nilai numerik antara 60 dan 202]
-9. **Angina Saat Olahraga**: Angina yang disebabkan oleh olahraga [Y: Ya, N: Tidak]
+9. **Angina Saat Olahraga**: Angina (jenis nyeri dada yang diakibatkan oleh berkurangnya aliran darah ke jantung.) yang disebabkan oleh olahraga [Y: Ya, N: Tidak]
 10. **Oldpeak**: oldpeak = ST [Nilai numerik yang diukur dalam depresi]
 11. **Kemiringan Segmen ST**: Kemiringan segmen ST latihan puncak [Up: menanjak, Flat: datar, Down: menurun]
 ''')
