@@ -20,7 +20,7 @@ with col2:
         Dalam aplikasi ini, Anda dapat memperkirakan kemungkinan Anda terkena penyakit jantung (ya/tidak) dalam hitungan detik!
         
         Di sini, model dibangun menggunakan arsitektur support vector machine dengan data yang diambil dari kaggle dan berjumlah 745. 
-        Aplikasi ini didasarkan pada model ini karena terbukti lebih baik dari pada random forest (mencapai akurasi sekitar 86%, cukup baik).
+        Aplikasi ini didasarkan pada model ini karena mencapai akurasi sekitar 86%, cukup baik.
         
         Untuk memprediksi status penyakit jantung Anda, cukup ikuti langkah-langkah di bawah ini:
         1. Masukkan parameter yang paling menggambarkan Anda;
