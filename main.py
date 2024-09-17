@@ -52,6 +52,22 @@ st.markdown('''
 
 st.write("---")
 st.header('Ayo, Cek Kondisi Kesehatan Jantung Anda!')
+# Simulasi data medis
+is_medical_professional = st.checkbox("Saya seorang profesional medis")
+has_medical_data = st.checkbox("Saya memiliki data medis")
+
+if not is_medical_professional:
+    st.warning("Peringatan: Anda bukan seorang profesional medis. Harap berhati-hati dalam menggunakan aplikasi ini.")
+
+if not has_medical_data:
+    st.warning("Peringatan: Anda tidak memiliki data medis. Hasil prediksi mungkin tidak akurat.")
+
+if is_medical_professional and has_medical_data:
+    st.write("Silakan masukkan data medis Anda untuk melakukan prediksi.")
+    # Tambahkan kode untuk form input data medis dan prediksi di sini
+else:
+    st.write("Mohon lengkapi kriteria di atas.")
+
 st.subheader('Isi parameter di bawah ini untuk mengetahui kondisi jantung Anda.')
 st.write("")
 
